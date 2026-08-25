@@ -1,0 +1,12 @@
+# Data, model outputs, and the ShiftKit dependency are all reproducible/large and
+# tracked separately (ShiftKit lives in its own fork: github.com/abdelrahman-helal/ShiftKit).
+data/
+output/
+ShiftKit/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
