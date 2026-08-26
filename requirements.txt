@@ -1,0 +1,13 @@
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14.0
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.7
+tqdm>=4.65
+torch>=2.0
+torch-geometric>=2.4
+geomloss>=0.2.6
+
+# ShiftKit has no packaging metadata (no pyproject.toml/setup.py), so it can't be
+# pip-installed directly. Clone it into ./ShiftKit instead -- see README.
