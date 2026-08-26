@@ -10,11 +10,13 @@ Adaptation), with three reweighting variants, against a No-DA source-only baseli
 ```bash
 pip install -r requirements.txt
 git clone --branch da-paper-shiftkit https://github.com/abdelrahman-helal/ShiftKit.git
+pip install -r ShiftKit/requirements.txt
 ```
 
-`ShiftKit` has no packaging metadata, so it's cloned as a plain directory rather than
-pip-installed; each notebook's setup cell auto-detects the repo root and puts `./ShiftKit`
-on `sys.path`, so no install step is needed beyond cloning it into place.
+`ShiftKit` has no packaging metadata, so it's cloned directly into the repo root rather
+than pip-installed; each notebook's setup cell auto-detects the repo root and puts
+`./ShiftKit` on `sys.path`, so no separate install step is needed beyond cloning it into
+place and installing its own requirements.
 
 ### Data
 
